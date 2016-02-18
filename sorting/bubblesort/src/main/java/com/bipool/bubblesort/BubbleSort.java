@@ -4,7 +4,7 @@ public class BubbleSort {
 	
     public static void main( String[] args ){
     	
-        int[] numbers = new int[]{3,2,1};
+        int[] numbers = {3,2,1};
         
         display(numbers);
         bubbleSort(numbers);
@@ -40,11 +40,9 @@ public class BubbleSort {
     
     
     public static void display(int[] numbers){
-    	for(int i = 0, l = numbers.length-1; i <= l; i++){
-    		System.out.print(numbers[i]);
-    		if(i != l){
-    			System.out.print(" ");
-    		}
+
+    	for(int i : numbers){
+    		System.out.printf("%8d", i);
     	}
     	
     }

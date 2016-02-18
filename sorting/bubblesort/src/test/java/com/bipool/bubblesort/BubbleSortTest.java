@@ -32,8 +32,8 @@ public class BubbleSortTest
 
     public void testSorting()
     {
-        int[] nums = new int[]{4, 5, 2};
-        int[] expected = new int[]{2, 4, 5};
+        int[] nums = {4, 5, 2};
+        int[] expected = {2, 4, 5};
         BubbleSort.bubbleSort(nums);
         Assert.assertArrayEquals(expected, nums);
     }
@@ -41,24 +41,24 @@ public class BubbleSortTest
 
     public void testFullReverseSorting()
     {
-        int[] nums = new int[]{21, 20, 18, 17, 15, 10, 5, 0};
-        int[] expected = new int[]{0, 5, 10, 15, 17, 18, 20, 21};
+        int[] nums = {21, 20, 18, 17, 15, 10, 5, 0};
+        int[] expected = {0, 5, 10, 15, 17, 18, 20, 21};
         BubbleSort.bubbleSort(nums);
         Assert.assertArrayEquals(expected, nums);
     }
 
     public void testSingleNumber()
     {
-        int[] nums = new int[]{100};
-        int[] expected = new int[]{100};
+        int[] nums = {100};
+        int[] expected = {100};
         BubbleSort.bubbleSort(nums);
         Assert.assertArrayEquals(expected, nums);
     }
     
     public void testTwoNumbers()
     {
-        int[] nums = new int[]{21, 20};
-        int[] expected = new int[]{20, 21};
+        int[] nums = {21, 20};
+        int[] expected = {20, 21};
         BubbleSort.bubbleSort(nums);
         Assert.assertArrayEquals(expected, nums);
     }

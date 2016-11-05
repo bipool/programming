@@ -1,4 +1,4 @@
-package com.bipool.selectionsort;
+package programming.sorting.algorithm.src.test.java.com.bipool.selectionsort;
 
 
 import org.junit.Assert;

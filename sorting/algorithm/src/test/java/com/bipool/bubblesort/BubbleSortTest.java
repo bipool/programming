@@ -1,4 +1,4 @@
-package com.bipool.bubblesort;
+package programming.sorting.algorithm.src.test.java.com.bipool.bubblesort;
 
 import org.junit.Assert;
 

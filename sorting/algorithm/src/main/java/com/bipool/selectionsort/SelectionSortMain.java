@@ -1,4 +1,4 @@
-package com.bipool.selectionsort;
+package programming.sorting.algorithm.src.main.java.com.bipool.selectionsort;
 
 public class SelectionSortMain {
 	

@@ -1,4 +1,4 @@
-package com.bipool.bubblesort;
+package programming.sorting.algorithm.src.main.java.com.bipool.bubblesort;
 
 public class BubbleSort {
 	
